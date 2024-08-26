@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		63D6C4322C7CC68400BE153C /* MainPageBanners.docc in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4312C7CC68400BE153C /* MainPageBanners.docc */; };
-		63D6C4382C7CC68400BE153C /* MainPageBanners.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6C42D2C7CC68400BE153C /* MainPageBanners.framework */; };
+		63D6C4382C7CC68400BE153C /* ExpressClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6C42D2C7CC68400BE153C /* ExpressClone.framework */; };
 		63D6C43D2C7CC68400BE153C /* MainPageBannersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C43C2C7CC68400BE153C /* MainPageBannersTests.swift */; };
 		63D6C43E2C7CC68400BE153C /* MainPageBanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D6C4302C7CC68400BE153C /* MainPageBanners.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -24,10 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63D6C42D2C7CC68400BE153C /* MainPageBanners.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MainPageBanners.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D6C42D2C7CC68400BE153C /* ExpressClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExpressClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D6C4302C7CC68400BE153C /* MainPageBanners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageBanners.h; sourceTree = "<group>"; };
 		63D6C4312C7CC68400BE153C /* MainPageBanners.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MainPageBanners.docc; sourceTree = "<group>"; };
-		63D6C4372C7CC68400BE153C /* MainPageBannersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainPageBannersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D6C4372C7CC68400BE153C /* ExpressCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpressCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D6C43C2C7CC68400BE153C /* MainPageBannersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageBannersTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D6C4382C7CC68400BE153C /* MainPageBanners.framework in Frameworks */,
+				63D6C4382C7CC68400BE153C /* ExpressClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +62,8 @@
 		63D6C42E2C7CC68400BE153C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63D6C42D2C7CC68400BE153C /* MainPageBanners.framework */,
-				63D6C4372C7CC68400BE153C /* MainPageBannersTests.xctest */,
+				63D6C42D2C7CC68400BE153C /* ExpressClone.framework */,
+				63D6C4372C7CC68400BE153C /* ExpressCloneTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +99,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		63D6C42C2C7CC68400BE153C /* MainPageBanners */ = {
+		63D6C42C2C7CC68400BE153C /* ExpressClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63D6C4412C7CC68400BE153C /* Build configuration list for PBXNativeTarget "MainPageBanners" */;
+			buildConfigurationList = 63D6C4412C7CC68400BE153C /* Build configuration list for PBXNativeTarget "ExpressClone" */;
 			buildPhases = (
 				63D6C4282C7CC68400BE153C /* Headers */,
 				63D6C4292C7CC68400BE153C /* Sources */,
@@ -112,14 +112,14 @@
 			);
 			dependencies = (
 			);
-			name = MainPageBanners;
+			name = ExpressClone;
 			productName = MainPageBanners;
-			productReference = 63D6C42D2C7CC68400BE153C /* MainPageBanners.framework */;
+			productReference = 63D6C42D2C7CC68400BE153C /* ExpressClone.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		63D6C4362C7CC68400BE153C /* MainPageBannersTests */ = {
+		63D6C4362C7CC68400BE153C /* ExpressCloneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63D6C4442C7CC68400BE153C /* Build configuration list for PBXNativeTarget "MainPageBannersTests" */;
+			buildConfigurationList = 63D6C4442C7CC68400BE153C /* Build configuration list for PBXNativeTarget "ExpressCloneTests" */;
 			buildPhases = (
 				63D6C4332C7CC68400BE153C /* Sources */,
 				63D6C4342C7CC68400BE153C /* Frameworks */,
@@ -130,9 +130,9 @@
 			dependencies = (
 				63D6C43A2C7CC68400BE153C /* PBXTargetDependency */,
 			);
-			name = MainPageBannersTests;
+			name = ExpressCloneTests;
 			productName = MainPageBannersTests;
-			productReference = 63D6C4372C7CC68400BE153C /* MainPageBannersTests.xctest */;
+			productReference = 63D6C4372C7CC68400BE153C /* ExpressCloneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 63D6C4272C7CC68400BE153C /* Build configuration list for PBXProject "MainPageBanners" */;
+			buildConfigurationList = 63D6C4272C7CC68400BE153C /* Build configuration list for PBXProject "ExpressClone" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +166,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63D6C42C2C7CC68400BE153C /* MainPageBanners */,
-				63D6C4362C7CC68400BE153C /* MainPageBannersTests */,
+				63D6C42C2C7CC68400BE153C /* ExpressClone */,
+				63D6C4362C7CC68400BE153C /* ExpressCloneTests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,7 +211,7 @@
 /* Begin PBXTargetDependency section */
 		63D6C43A2C7CC68400BE153C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63D6C42C2C7CC68400BE153C /* MainPageBanners */;
+			target = 63D6C42C2C7CC68400BE153C /* ExpressClone */;
 			targetProxy = 63D6C4392C7CC68400BE153C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -443,7 +443,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63D6C4272C7CC68400BE153C /* Build configuration list for PBXProject "MainPageBanners" */ = {
+		63D6C4272C7CC68400BE153C /* Build configuration list for PBXProject "ExpressClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63D6C43F2C7CC68400BE153C /* Debug */,
@@ -452,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63D6C4412C7CC68400BE153C /* Build configuration list for PBXNativeTarget "MainPageBanners" */ = {
+		63D6C4412C7CC68400BE153C /* Build configuration list for PBXNativeTarget "ExpressClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63D6C4422C7CC68400BE153C /* Debug */,
@@ -461,7 +461,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63D6C4442C7CC68400BE153C /* Build configuration list for PBXNativeTarget "MainPageBannersTests" */ = {
+		63D6C4442C7CC68400BE153C /* Build configuration list for PBXNativeTarget "ExpressCloneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63D6C4452C7CC68400BE153C /* Debug */,
