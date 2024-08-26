@@ -1,0 +1,6 @@
+framework module Pods_ExpressClone_ExpressCloneUITests {
+  umbrella header "Pods-ExpressClone-ExpressCloneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
