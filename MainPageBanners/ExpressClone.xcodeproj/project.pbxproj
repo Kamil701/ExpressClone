@@ -53,8 +53,8 @@
 		63D6C4232C7CC68400BE153C = {
 			isa = PBXGroup;
 			children = (
-				63D6C42F2C7CC68400BE153C /* MainPageBanners */,
-				63D6C43B2C7CC68400BE153C /* MainPageBannersTests */,
+				63D6C42F2C7CC68400BE153C /* ExpressClone */,
+				63D6C43B2C7CC68400BE153C /* ExpressCloneTests */,
 				63D6C42E2C7CC68400BE153C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,21 +68,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63D6C42F2C7CC68400BE153C /* MainPageBanners */ = {
+		63D6C42F2C7CC68400BE153C /* ExpressClone */ = {
 			isa = PBXGroup;
 			children = (
 				63D6C4302C7CC68400BE153C /* MainPageBanners.h */,
 				63D6C4312C7CC68400BE153C /* MainPageBanners.docc */,
 			);
-			path = MainPageBanners;
+			path = ExpressClone;
 			sourceTree = "<group>";
 		};
-		63D6C43B2C7CC68400BE153C /* MainPageBannersTests */ = {
+		63D6C43B2C7CC68400BE153C /* ExpressCloneTests */ = {
 			isa = PBXGroup;
 			children = (
 				63D6C43C2C7CC68400BE153C /* MainPageBannersTests.swift */,
 			);
-			path = MainPageBannersTests;
+			path = ExpressCloneTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -10,7 +10,6 @@
 		63D6C3F42C7CC5E200BE153C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C3F32C7CC5E200BE153C /* AppDelegate.swift */; };
 		63D6C3F62C7CC5E200BE153C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C3F52C7CC5E200BE153C /* SceneDelegate.swift */; };
 		63D6C3F82C7CC5E200BE153C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C3F72C7CC5E200BE153C /* ViewController.swift */; };
-		63D6C3FB2C7CC5E200BE153C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D6C3FA2C7CC5E200BE153C /* Base */; };
 		63D6C3FD2C7CC5E300BE153C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D6C3FC2C7CC5E300BE153C /* Assets.xcassets */; };
 		63D6C4002C7CC5E300BE153C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D6C3FF2C7CC5E300BE153C /* Base */; };
 		63D6C40B2C7CC5E300BE153C /* ExpressCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C40A2C7CC5E300BE153C /* ExpressCloneTests.swift */; };
@@ -50,7 +49,6 @@
 		63D6C3F32C7CC5E200BE153C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63D6C3F52C7CC5E200BE153C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		63D6C3F72C7CC5E200BE153C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63D6C3FA2C7CC5E200BE153C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63D6C3FC2C7CC5E300BE153C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D6C3FF2C7CC5E300BE153C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63D6C4012C7CC5E300BE153C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,7 +95,7 @@
 		63D6C3E72C7CC5E200BE153C = {
 			isa = PBXGroup;
 			children = (
-				63D6C3F22C7CC5E200BE153C /* ExpressClone */,
+				63D6C3F22C7CC5E200BE153C /* MainPageBanners */,
 				63D6C4092C7CC5E300BE153C /* ExpressCloneTests */,
 				63D6C4132C7CC5E300BE153C /* ExpressCloneUITests */,
 				63D6C3F12C7CC5E200BE153C /* Products */,
@@ -116,18 +114,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63D6C3F22C7CC5E200BE153C /* ExpressClone */ = {
+		63D6C3F22C7CC5E200BE153C /* MainPageBanners */ = {
 			isa = PBXGroup;
 			children = (
-				63D6C3F32C7CC5E200BE153C /* AppDelegate.swift */,
-				63D6C3F52C7CC5E200BE153C /* SceneDelegate.swift */,
-				63D6C3F72C7CC5E200BE153C /* ViewController.swift */,
-				63D6C3F92C7CC5E200BE153C /* Main.storyboard */,
-				63D6C3FC2C7CC5E300BE153C /* Assets.xcassets */,
-				63D6C3FE2C7CC5E300BE153C /* LaunchScreen.storyboard */,
-				63D6C4012C7CC5E300BE153C /* Info.plist */,
+				63D6C4492C7CD33000BE153C /* App */,
+				63D6C44C2C7CD3F000BE153C /* Core */,
+				63D6C44E2C7CD43E00BE153C /* Features */,
+				63D6C44A2C7CD3C900BE153C /* Resources */,
+				63D6C44D2C7CD41600BE153C /* Shared */,
 			);
-			path = ExpressClone;
+			path = MainPageBanners;
 			sourceTree = "<group>";
 		};
 		63D6C4092C7CC5E300BE153C /* ExpressCloneTests */ = {
@@ -145,6 +141,255 @@
 				63D6C4162C7CC5E300BE153C /* ExpressCloneUITestsLaunchTests.swift */,
 			);
 			path = ExpressCloneUITests;
+			sourceTree = "<group>";
+		};
+		63D6C4492C7CD33000BE153C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C3F72C7CC5E200BE153C /* ViewController.swift */,
+				63D6C3F52C7CC5E200BE153C /* SceneDelegate.swift */,
+				63D6C3F32C7CC5E200BE153C /* AppDelegate.swift */,
+				63D6C3FE2C7CC5E300BE153C /* LaunchScreen.storyboard */,
+				63D6C4012C7CC5E300BE153C /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		63D6C44A2C7CD3C900BE153C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C44B2C7CD3DD00BE153C /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63D6C44B2C7CD3DD00BE153C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C3FC2C7CC5E300BE153C /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		63D6C44C2C7CD3F000BE153C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C4662C7D111400BE153C /* Extensions */,
+				63D6C4652C7D110A00BE153C /* MVVM */,
+				63D6C4672C7D112100BE153C /* Types */,
+				63D6C4682C7D112900BE153C /* UseCases */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		63D6C44D2C7CD41600BE153C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C4632C7D10E800BE153C /* Domain */,
+				63D6C4622C7D10CD00BE153C /* Presentation */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		63D6C44E2C7CD43E00BE153C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C44F2C7CD48C00BE153C /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		63D6C44F2C7CD48C00BE153C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C4502C7CD49900BE153C /* Data */,
+				63D6C4512C7CD4A000BE153C /* Domain */,
+				63D6C4532C7CD4F900BE153C /* Presentation */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		63D6C4502C7CD49900BE153C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C4572C7D0FD500BE153C /* Mappers */,
+				63D6C4582C7D0FDB00BE153C /* Models */,
+				63D6C4592C7D0FEA00BE153C /* DataSources */,
+				63D6C45C2C7D103A00BE153C /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		63D6C4512C7CD4A000BE153C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C4542C7CD55000BE153C /* Entities */,
+				63D6C4552C7CD55A00BE153C /* Repositories */,
+				63D6C4562C7CD57500BE153C /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		63D6C4532C7CD4F900BE153C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C45E2C7D106900BE153C /* Builder */,
+				63D6C4602C7D107700BE153C /* Screens */,
+				63D6C45F2C7D107300BE153C /* Views */,
+				63D6C45D2C7D106400BE153C /* Mappers */,
+				63D6C4612C7D108100BE153C /* ViewModels */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		63D6C4542C7CD55000BE153C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		63D6C4552C7CD55A00BE153C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		63D6C4562C7CD57500BE153C /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		63D6C4572C7D0FD500BE153C /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		63D6C4582C7D0FDB00BE153C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63D6C4592C7D0FEA00BE153C /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C45A2C7D100E00BE153C /* Remote */,
+				63D6C45B2C7D101500BE153C /* Local */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		63D6C45A2C7D100E00BE153C /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		63D6C45B2C7D101500BE153C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		63D6C45C2C7D103A00BE153C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		63D6C45D2C7D106400BE153C /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		63D6C45E2C7D106900BE153C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		63D6C45F2C7D107300BE153C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63D6C4602C7D107700BE153C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		63D6C4612C7D108100BE153C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		63D6C4622C7D10CD00BE153C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		63D6C4632C7D10E800BE153C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C4642C7D10F400BE153C /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		63D6C4642C7D10F400BE153C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		63D6C4652C7D110A00BE153C /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		63D6C4662C7D111400BE153C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		63D6C4672C7D112100BE153C /* Types */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		63D6C4682C7D112900BE153C /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		64EE65FF83597996A863A839 /* Frameworks */ = {
@@ -282,7 +527,6 @@
 			files = (
 				63D6C3FD2C7CC5E300BE153C /* Assets.xcassets in Resources */,
 				63D6C4002C7CC5E300BE153C /* Base in Resources */,
-				63D6C3FB2C7CC5E200BE153C /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,14 +693,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63D6C3F92C7CC5E200BE153C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63D6C3FA2C7CC5E200BE153C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63D6C3FE2C7CC5E300BE153C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
