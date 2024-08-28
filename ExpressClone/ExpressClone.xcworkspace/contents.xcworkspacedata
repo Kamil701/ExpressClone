@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/kamilvakhobiv/Developer/iOS Projects/ExpressClone/MainPageBanners/ExpressClone.xcodeproj">
+      location = "group:/Users/kamilvakhobiv/Developer/iOS Projects/ExpressClone/ExpressClone/MainPageBanners.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/kamilvakhobiv/Developer/iOS Projects/ExpressClone/ExpressClone/MainPageBanners.xcodeproj">
+      location = "group:/Users/kamilvakhobiv/Developer/iOS Projects/ExpressClone/MainPageBanners/ExpressClone.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

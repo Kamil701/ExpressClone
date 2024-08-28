@@ -11,6 +11,14 @@
 		63D6C4382C7CC68400BE153C /* ExpressClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6C42D2C7CC68400BE153C /* ExpressClone.framework */; };
 		63D6C43D2C7CC68400BE153C /* MainPageBannersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C43C2C7CC68400BE153C /* MainPageBannersTests.swift */; };
 		63D6C43E2C7CC68400BE153C /* MainPageBanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D6C4302C7CC68400BE153C /* MainPageBanners.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D6C4802C7DB82D00BE153C /* CALayer+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C47F2C7DB82D00BE153C /* CALayer+Ext.swift */; };
+		63D6C4822C7DB85000BE153C /* UIEdgeInsets+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4812C7DB85000BE153C /* UIEdgeInsets+Ext.swift */; };
+		63D6C4842C7DB86500BE153C /* CGSize+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4832C7DB86500BE153C /* CGSize+Ext.swift */; };
+		63D6C4862C7DB87900BE153C /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4852C7DB87900BE153C /* UIImage+Ext.swift */; };
+		63D6C4882C7DB89400BE153C /* UIStackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4872C7DB89400BE153C /* UIStackView+Ext.swift */; };
+		63D6C48A2C7DB8AD00BE153C /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4892C7DB8AD00BE153C /* UIViewController+Ext.swift */; };
+		63D6C48C2C7DB8BD00BE153C /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C48B2C7DB8BD00BE153C /* UIView+Ext.swift */; };
+		63D6C48E2C7DB8C900BE153C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C48D2C7DB8C900BE153C /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		63D6C4312C7CC68400BE153C /* MainPageBanners.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MainPageBanners.docc; sourceTree = "<group>"; };
 		63D6C4372C7CC68400BE153C /* ExpressCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpressCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D6C43C2C7CC68400BE153C /* MainPageBannersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageBannersTests.swift; sourceTree = "<group>"; };
+		63D6C47F2C7DB82D00BE153C /* CALayer+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Ext.swift"; sourceTree = "<group>"; };
+		63D6C4812C7DB85000BE153C /* UIEdgeInsets+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Ext.swift"; sourceTree = "<group>"; };
+		63D6C4832C7DB86500BE153C /* CGSize+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Ext.swift"; sourceTree = "<group>"; };
+		63D6C4852C7DB87900BE153C /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		63D6C4872C7DB89400BE153C /* UIStackView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Ext.swift"; sourceTree = "<group>"; };
+		63D6C4892C7DB8AD00BE153C /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		63D6C48B2C7DB8BD00BE153C /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		63D6C48D2C7DB8C900BE153C /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,8 @@
 		63D6C42F2C7CC68400BE153C /* ExpressClone */ = {
 			isa = PBXGroup;
 			children = (
+				63D6C47D2C7DB7D300BE153C /* Base */,
+				63D6C47E2C7DB7DF00BE153C /* Extensions */,
 				63D6C4302C7CC68400BE153C /* MainPageBanners.h */,
 				63D6C4312C7CC68400BE153C /* MainPageBanners.docc */,
 			);
@@ -83,6 +101,28 @@
 				63D6C43C2C7CC68400BE153C /* MainPageBannersTests.swift */,
 			);
 			path = ExpressCloneTests;
+			sourceTree = "<group>";
+		};
+		63D6C47D2C7DB7D300BE153C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		63D6C47E2C7DB7DF00BE153C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63D6C47F2C7DB82D00BE153C /* CALayer+Ext.swift */,
+				63D6C4812C7DB85000BE153C /* UIEdgeInsets+Ext.swift */,
+				63D6C4832C7DB86500BE153C /* CGSize+Ext.swift */,
+				63D6C4852C7DB87900BE153C /* UIImage+Ext.swift */,
+				63D6C4872C7DB89400BE153C /* UIStackView+Ext.swift */,
+				63D6C4892C7DB8AD00BE153C /* UIViewController+Ext.swift */,
+				63D6C48B2C7DB8BD00BE153C /* UIView+Ext.swift */,
+				63D6C48D2C7DB8C900BE153C /* String+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +234,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D6C48E2C7DB8C900BE153C /* String+Ext.swift in Sources */,
+				63D6C48C2C7DB8BD00BE153C /* UIView+Ext.swift in Sources */,
+				63D6C4862C7DB87900BE153C /* UIImage+Ext.swift in Sources */,
+				63D6C4842C7DB86500BE153C /* CGSize+Ext.swift in Sources */,
+				63D6C48A2C7DB8AD00BE153C /* UIViewController+Ext.swift in Sources */,
 				63D6C4322C7CC68400BE153C /* MainPageBanners.docc in Sources */,
+				63D6C4882C7DB89400BE153C /* UIStackView+Ext.swift in Sources */,
+				63D6C4822C7DB85000BE153C /* UIEdgeInsets+Ext.swift in Sources */,
+				63D6C4802C7DB82D00BE153C /* CALayer+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +459,7 @@
 		63D6C4452C7CC68400BE153C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q3NY5JH848;
@@ -427,6 +476,7 @@
 		63D6C4462C7CC68400BE153C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q3NY5JH848;

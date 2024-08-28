@@ -16,6 +16,23 @@
 		63D6C4152C7CC5E300BE153C /* ExpressCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4142C7CC5E300BE153C /* ExpressCloneUITests.swift */; };
 		63D6C4172C7CC5E300BE153C /* ExpressCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4162C7CC5E300BE153C /* ExpressCloneUITestsLaunchTests.swift */; };
 		63D6C4482C7CC71700BE153C /* MainPageBanners.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6C4472C7CC71700BE153C /* MainPageBanners.framework */; };
+		63D6C46A2C7DACDE00BE153C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4692C7DACDE00BE153C /* BaseViewController.swift */; };
+		63D6C46D2C7DAD7B00BE153C /* ViewInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C46C2C7DAD7B00BE153C /* ViewInstaller.swift */; };
+		63D6C4702C7DB16D00BE153C /* EmptyParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C46F2C7DB16D00BE153C /* EmptyParams.swift */; };
+		63D6C4722C7DB27A00BE153C /* PromotionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4712C7DB27A00BE153C /* PromotionBanner.swift */; };
+		63D6C4742C7DB28F00BE153C /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4732C7DB28F00BE153C /* Stories.swift */; };
+		63D6C4762C7DB29C00BE153C /* Stores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4752C7DB29C00BE153C /* Stores.swift */; };
+		63D6C4782C7DB2B500BE153C /* RestauranttCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4772C7DB2B500BE153C /* RestauranttCategories.swift */; };
+		63D6C47A2C7DB2C200BE153C /* RestaurantCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4792C7DB2C200BE153C /* RestaurantCatalog.swift */; };
+		63D6C47C2C7DB2ED00BE153C /* PopularRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C47B2C7DB2ED00BE153C /* PopularRestaurants.swift */; };
+		63D6C4902C7E632400BE153C /* AnyHomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C48F2C7E632400BE153C /* AnyHomeRepository.swift */; };
+		63D6C4922C7E642100BE153C /* CallBacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4912C7E642100BE153C /* CallBacks.swift */; };
+		63D6C4942C7EF5B300BE153C /* GetPromotionBanners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4932C7EF5B300BE153C /* GetPromotionBanners.swift */; };
+		63D6C4962C7EF5C400BE153C /* GetStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4952C7EF5C400BE153C /* GetStories.swift */; };
+		63D6C4982C7EF5D300BE153C /* GetStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4972C7EF5D300BE153C /* GetStores.swift */; };
+		63D6C49A2C7EF60700BE153C /* GetRestaurantCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C4992C7EF60700BE153C /* GetRestaurantCategories.swift */; };
+		63D6C49C2C7EF62100BE153C /* GetRestaurantCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C49B2C7EF62100BE153C /* GetRestaurantCatalog.swift */; };
+		63D6C49E2C7EF64800BE153C /* GetPopularRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C49D2C7EF64800BE153C /* GetPopularRestaurant.swift */; };
 		924E857F98332C3A4E4BE5F2 /* Pods_ExpressCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0487711FD76D307DA00AED /* Pods_ExpressCloneTests.framework */; };
 		B942A5B8E6613D11B7525B9A /* Pods_ExpressClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DE03A0CDD7D8D71E5E21AC /* Pods_ExpressClone.framework */; };
 		EF74B6AC4D0E6436792B8327 /* Pods_ExpressClone_ExpressCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691BBD771C77F50897DBBD58 /* Pods_ExpressClone_ExpressCloneUITests.framework */; };
@@ -58,6 +75,23 @@
 		63D6C4142C7CC5E300BE153C /* ExpressCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressCloneUITests.swift; sourceTree = "<group>"; };
 		63D6C4162C7CC5E300BE153C /* ExpressCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63D6C4472C7CC71700BE153C /* MainPageBanners.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MainPageBanners.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D6C4692C7DACDE00BE153C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		63D6C46C2C7DAD7B00BE153C /* ViewInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInstaller.swift; sourceTree = "<group>"; };
+		63D6C46F2C7DB16D00BE153C /* EmptyParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyParams.swift; sourceTree = "<group>"; };
+		63D6C4712C7DB27A00BE153C /* PromotionBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionBanner.swift; sourceTree = "<group>"; };
+		63D6C4732C7DB28F00BE153C /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
+		63D6C4752C7DB29C00BE153C /* Stores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stores.swift; sourceTree = "<group>"; };
+		63D6C4772C7DB2B500BE153C /* RestauranttCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauranttCategories.swift; sourceTree = "<group>"; };
+		63D6C4792C7DB2C200BE153C /* RestaurantCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCatalog.swift; sourceTree = "<group>"; };
+		63D6C47B2C7DB2ED00BE153C /* PopularRestaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRestaurants.swift; sourceTree = "<group>"; };
+		63D6C48F2C7E632400BE153C /* AnyHomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyHomeRepository.swift; sourceTree = "<group>"; };
+		63D6C4912C7E642100BE153C /* CallBacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallBacks.swift; sourceTree = "<group>"; };
+		63D6C4932C7EF5B300BE153C /* GetPromotionBanners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPromotionBanners.swift; sourceTree = "<group>"; };
+		63D6C4952C7EF5C400BE153C /* GetStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStories.swift; sourceTree = "<group>"; };
+		63D6C4972C7EF5D300BE153C /* GetStores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStores.swift; sourceTree = "<group>"; };
+		63D6C4992C7EF60700BE153C /* GetRestaurantCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRestaurantCategories.swift; sourceTree = "<group>"; };
+		63D6C49B2C7EF62100BE153C /* GetRestaurantCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRestaurantCatalog.swift; sourceTree = "<group>"; };
+		63D6C49D2C7EF64800BE153C /* GetPopularRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPopularRestaurant.swift; sourceTree = "<group>"; };
 		691BBD771C77F50897DBBD58 /* Pods_ExpressClone_ExpressCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpressClone_ExpressCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C580D1DE2ADCAAB88E6FE4C /* Pods-ExpressClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpressClone.release.xcconfig"; path = "Target Support Files/Pods-ExpressClone/Pods-ExpressClone.release.xcconfig"; sourceTree = "<group>"; };
 		D84199E88A853C0D52EDAC0A /* Pods-ExpressClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpressClone.debug.xcconfig"; path = "Target Support Files/Pods-ExpressClone/Pods-ExpressClone.debug.xcconfig"; sourceTree = "<group>"; };
@@ -245,6 +279,12 @@
 		63D6C4542C7CD55000BE153C /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				63D6C4712C7DB27A00BE153C /* PromotionBanner.swift */,
+				63D6C4732C7DB28F00BE153C /* Stories.swift */,
+				63D6C4752C7DB29C00BE153C /* Stores.swift */,
+				63D6C4772C7DB2B500BE153C /* RestauranttCategories.swift */,
+				63D6C4792C7DB2C200BE153C /* RestaurantCatalog.swift */,
+				63D6C47B2C7DB2ED00BE153C /* PopularRestaurants.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -252,6 +292,7 @@
 		63D6C4552C7CD55A00BE153C /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				63D6C48F2C7E632400BE153C /* AnyHomeRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -259,6 +300,12 @@
 		63D6C4562C7CD57500BE153C /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				63D6C4932C7EF5B300BE153C /* GetPromotionBanners.swift */,
+				63D6C4952C7EF5C400BE153C /* GetStories.swift */,
+				63D6C4972C7EF5D300BE153C /* GetStores.swift */,
+				63D6C4992C7EF60700BE153C /* GetRestaurantCategories.swift */,
+				63D6C49B2C7EF62100BE153C /* GetRestaurantCatalog.swift */,
+				63D6C49D2C7EF64800BE153C /* GetPopularRestaurant.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -345,6 +392,8 @@
 		63D6C4622C7D10CD00BE153C /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				63D6C4692C7DACDE00BE153C /* BaseViewController.swift */,
+				63D6C46C2C7DAD7B00BE153C /* ViewInstaller.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -360,6 +409,7 @@
 		63D6C4642C7D10F400BE153C /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				63D6C46F2C7DB16D00BE153C /* EmptyParams.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -381,6 +431,7 @@
 		63D6C4672C7D112100BE153C /* Types */ = {
 			isa = PBXGroup;
 			children = (
+				63D6C4912C7E642100BE153C /* CallBacks.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -655,8 +706,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D6C3F82C7CC5E200BE153C /* ViewController.swift in Sources */,
+				63D6C49A2C7EF60700BE153C /* GetRestaurantCategories.swift in Sources */,
+				63D6C4742C7DB28F00BE153C /* Stories.swift in Sources */,
+				63D6C46D2C7DAD7B00BE153C /* ViewInstaller.swift in Sources */,
+				63D6C4942C7EF5B300BE153C /* GetPromotionBanners.swift in Sources */,
+				63D6C49E2C7EF64800BE153C /* GetPopularRestaurant.swift in Sources */,
+				63D6C4962C7EF5C400BE153C /* GetStories.swift in Sources */,
+				63D6C4982C7EF5D300BE153C /* GetStores.swift in Sources */,
+				63D6C47A2C7DB2C200BE153C /* RestaurantCatalog.swift in Sources */,
+				63D6C46A2C7DACDE00BE153C /* BaseViewController.swift in Sources */,
+				63D6C4702C7DB16D00BE153C /* EmptyParams.swift in Sources */,
+				63D6C47C2C7DB2ED00BE153C /* PopularRestaurants.swift in Sources */,
+				63D6C4762C7DB29C00BE153C /* Stores.swift in Sources */,
+				63D6C4922C7E642100BE153C /* CallBacks.swift in Sources */,
+				63D6C4782C7DB2B500BE153C /* RestauranttCategories.swift in Sources */,
+				63D6C4902C7E632400BE153C /* AnyHomeRepository.swift in Sources */,
 				63D6C3F42C7CC5E200BE153C /* AppDelegate.swift in Sources */,
+				63D6C49C2C7EF62100BE153C /* GetRestaurantCatalog.swift in Sources */,
 				63D6C3F62C7CC5E200BE153C /* SceneDelegate.swift in Sources */,
+				63D6C4722C7DB27A00BE153C /* PromotionBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
