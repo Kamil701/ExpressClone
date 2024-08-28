@@ -10,7 +10,7 @@ import Foundation
 struct RestaurantCategories {
     let categories: String
     
-    func copyWith(categories: String? = nil) -> RestarauntCategories {
-        return RestarauntCategories(categories: categories ?? self.categories)
+    func copyWith(categories: String? = nil) -> RestaurantCategories {
+        return RestaurantCategories(categories: categories ?? self.categories)
     }
 }

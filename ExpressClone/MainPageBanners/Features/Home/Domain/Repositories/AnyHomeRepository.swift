@@ -8,7 +8,7 @@
 import Foundation
 
 protocol AnyHomeRepository {
-    func getPromotionBanners(comletion: @escaping ResultCallBack<[PromotionBanner]>)
+    func getPromotionBanners(completion: @escaping ResultCallBack<[PromotionBanner]>)
     func getStories(completion: @escaping ResultCallBack<[Stories]>)
     func getStores(completion: @escaping ResultCallBack<[Stores]>)
     func getRestaurantCategories(completion: @escaping ResultCallBack<[RestaurantCategories]>)
