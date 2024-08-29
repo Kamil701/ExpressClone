@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ServiceCategoryDto {
+struct ServiceCategoryDto: Codable {
     let name: String
     
     enum CodingKeys: String, CodingKey {

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct StoreDto: Decodable {
+struct StoresDto: Decodable {
     let list: [List]
     
     enum CodingKeys: String, CodingKey {

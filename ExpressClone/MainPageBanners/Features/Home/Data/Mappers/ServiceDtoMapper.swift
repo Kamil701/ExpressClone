@@ -8,7 +8,7 @@
 import Foundation
 
 struct ServiceDtoMapper {
-    func toEntity(dto: ServiceCategoryDto) -> Service {
+    static func toEntity(dto: ServiceCategoryDto) -> Service {
         Service(name: dto.name)
     }
 }

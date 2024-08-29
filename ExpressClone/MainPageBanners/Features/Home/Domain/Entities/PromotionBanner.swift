@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PromotionBanner {
+struct PromotionBanner: Decodable {
     let imageUrl: String
     let text: String
     
@@ -15,8 +15,8 @@ struct PromotionBanner {
         return PromotionBanner(imageUrl: imageUrl ?? self.imageUrl, text: text ?? self.text)
     }
     
-    static func stub() -> PromotionBanner {
-        return PromotionBanner(imageUrl: <#T##String#>, text: <#T##String#>)
+    static func stub()  {
+//        return PromotionBanner(imageUrl: <#T##String#>, text: <#T##String#>)
     }
     
 }
